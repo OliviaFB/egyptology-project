@@ -1,0 +1,10 @@
+.project-background {
+  background-color: #F5F2FE;
+  box-shadow: var(--box-shadow);
+  height: 100%;
+}
+
+.project-description {
+  background-color: white;
+  text-align: justify;
+}

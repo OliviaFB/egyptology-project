@@ -1,5 +1,9 @@
+@import url(components/banner.css);
+@import url(components/card.css);
+
+
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: black;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -88,14 +92,19 @@ p {
   text-decoration: underline;
 }
 
-/*cards design*/
+/*Nav bar*/
 
-.project-background {
-  background-color: #F5F2FE;
-  height: 100%;
+.bg-nav {
+  background-color: black;
 }
 
-.project-description {
-  background-color: white;
-  text-align: justify;
+/*test*/
+
+.gallery {
+  display: grid;
+  grid-template-columns: 20px 20px;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "header header"
+  "main sidebar"
 }
