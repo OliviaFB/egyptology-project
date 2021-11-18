@@ -71,15 +71,6 @@ p {
   display: block;
 }
 
-.about-paragraphs {
-  display: flex;
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
-}
-
 .email-link {
   display: flex;
   justify-content: center;
@@ -100,6 +91,33 @@ p {
 .white-text {
   color: #ffffffc2;
 }
+
+/*Nav bar*/
+
+.bg-nav {
+  background-color: black;
+}
+
+/*about page*/
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.project-background img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+}
+
 
 /*contact me*/
 
@@ -141,10 +159,4 @@ p {
   img {
     display: none;
   }
-}
-
-/*Nav bar*/
-
-.bg-nav {
-  background-color: black;
 }
