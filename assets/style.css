@@ -98,6 +98,9 @@ p {
 
 .footer {
   background-color: #F5F5F5;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 /*Nav bar*/
