@@ -9,6 +9,7 @@
 }
 
 body {
+  font-family: 'Poppins', sans-serif;
 }
 
 h1,
@@ -42,12 +43,10 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
   justify-content: center;
 }
 
 .navigation-links a {
-  margin: 20px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
@@ -90,6 +89,15 @@ p {
 
 .white-text {
   color: #ffffffc2;
+}
+
+.icon-contact-hp {
+  display: block;
+  text-align: center;
+}
+
+.footer {
+  background-color: #F5F5F5;
 }
 
 /*Nav bar*/
@@ -140,7 +148,7 @@ p {
 
 .fab:hover,
 .fas:hover {
-  color: #6462cf;
+  color: #007bff;
 }
 
 .contact-details-card {
