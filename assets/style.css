@@ -96,7 +96,18 @@ p {
   text-align: center;
 }
 
-@media (min-width: 977px) {
+.footer {
+  background: #F5F5F5;
+  margin-top: 93px;
+}
+
+.position-footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+/*@media (min-width: 977px) {
 .footer {
   background-color: #F5F5F5;
   position: absolute;
@@ -109,7 +120,7 @@ p {
   .footer {
     position: static;
   }
-}
+}*/
 
 /*Nav bar*/
 
