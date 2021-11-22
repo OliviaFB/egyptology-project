@@ -96,11 +96,21 @@ p {
   text-align: center;
 }
 
-.footer {
+.footer-hp {
   background: #F5F5F5;
-  bottom: 0;
-  position: absolute;
   width: 100%;
+}
+
+.footer-about {
+  background: #F5F5F5;
+  width: 100%;
+}
+
+.footer-contact {
+  background: #F5F5F5;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 /*Nav bar*/
@@ -128,6 +138,13 @@ p {
   margin-bottom: auto;
   width: 100%;
 }
+
+@media (min-width: 977px) {
+  .footer {
+  position: absolute;
+  }
+}
+
 
 /*contact me*/
 
@@ -166,7 +183,7 @@ p {
 }
 
 @media (max-width: 576px) {
-  img {
+  .contact-details-card img {
     display: none;
   }
 }
